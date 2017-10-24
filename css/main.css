@@ -1,0 +1,29 @@
+h1 {
+  color: gray;
+  font-size: 23px;
+}
+hr{
+  width: 50px;
+  height: 5px;
+  color: red;
+  background-color: gray;
+  margin-left: 28px;
+}
+div {
+  width: 500px;
+  overflow: auto;
+  position: relative;
+  margin: 20px;
+}
+
+img {
+  opacity: 0.6;
+  margin: 12px;
+
+}
+
+
+
+ ::-webkit-scrollbar{
+    height: 0px;
+ }
