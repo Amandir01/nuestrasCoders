@@ -14,16 +14,13 @@ hr{
   margin-left: 28px;
 }
 section {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   position: relative;
-   width: 600px;
-   height:170px;
    margin-top: 3px;
    margin-left: 25px;
+   width: 600px;
+   height:180px;
 
-}
-img:active{
-  animation-duration: 4s;
 }
 
 img:hover {
@@ -31,19 +28,22 @@ img:hover {
 
 }
 figure {
+  /*outline: 1px solid yellow;*/
   float: left;
-  margin-left: 10px;
-  margin-right: 18px;
+  margin-left: 15px;
+  margin-right: 5px;
   position: relative;
   margin-bottom: 2px;
+  height: 150px;
+  width: 160px;
 }
 figcaption {
-  font-weight: 200px;
 font-size: 12px;
-  position: absolute;
-right:3%;
+position: absolute;
+right:8%;
 bottom: 10%;
 color: #fff;
+
 }
  /*::-webkit-scrollbar{
     height: 0px;
